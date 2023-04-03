@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 연습</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="center blue">
+      HTML 연습페이지
+      <input
+        type="button"
+        onclick="alert('hello world!!!')"
+        value="hello world"
+      />
+    </div>
+    <br />
+    <div>
+      <img
+        alt="고양이 사진"
+        src="https://ichef.bbci.co.uk/news/640/cpsprodpb/E172/production/_126241775_getty_cats.png"
+        class="img-size"
+      />
+    </div>
+    <div class="border-blue">고양이</div>
+    <p><a href="https://naver.com">Naver</a></p>
+    <div><a href="https:daum.net">daum</a></div>
+    <a href="https://google.com">google</a>
+
+    <p>
+      <button onclick="location.href='https://google.com'">
+        구글 이동 버튼
+      </button>
+    </p>
+    <form action="url" method="get">
+      닉네임 :
+      <input type="text" name="nickname" value="이름을 입력하세요" />
+      <br />
+      비밀번호:
+      <input type="password" name="nickname" />
+      <input type="hidden" name="language" value="kor" />
+      <br />
+      <input type="submit" />
+      <p><input type="number" /></p>
+      <br />
+      <br />
+      메모장 :
+      <br />
+      <textarea name="line" cols="30" rows="10">print("Hello World!")</textarea>
+      <br />
+    </form>
+    <br />
+    <br />
+    관심사
+    <br />
+    <input type="radio" name="interest" value="programming" checked="checked" />
+    프로그래밍 <br />
+    <input type="radio" name="interest" value="design" /> 디자인 <br />
+    <input type="radio" name="interest" value="planning" /> 기획 <br />
+    <br />
+
+    <form
+      action="example_recieve.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="image" />
+      <input type="submit" />
+    </form>
+
+    <div class="red">프로그래밍 언어 리스트</div>
+
+    <ul>
+      <li>python</li>
+      <li>c</li>
+      <li>java</li>
+      <li>html?</li>
+    </ul>
+    <br />
+    간단한 표
+    <table border="2">
+      <tr>
+        <th>이름</th>
+        <th>나이</th>
+        <th>성별</th>
+        <td>test</td>
+      </tr>
+      <tr>
+        <td>준호</td>
+        <td>25</td>
+        <td>남자</td>
+      </tr>
+      <tr>
+        <td>김김김</td>
+        <td>22</td>
+        <td>여자</td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>컴퓨터</td>
+        <td colspan="2">알수없음</td>
+      </tr>
+    </table>
+
+    <div
+      class="border-blue img-size center bgray margin-space padding-space lh"
+    >
+      Box
+    </div>
+
+    <p>
+      <button class="img-size">끝</button>
+    </p>
+  </body>
+  <button>
+    안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요
+  </button>
+</html>
