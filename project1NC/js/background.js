@@ -10,4 +10,8 @@ bgImage.src = `img/${chosenImage}`;
 
 // console.log(bgImage);
 
-document.body.appendChild(bgImage);
+// document.body.appendChild(bgImage);
+document.body.style.backgroundImage = `url(${bgImage.src})`;
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "100% 100%";
+document.body.style.backgroundPosition = "center";
