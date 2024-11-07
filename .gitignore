@@ -7,3 +7,13 @@ Html_practice_doit
 school
 
 test.html
+
+AIoT/.cache
+
+AIoT/dist/
+
+AIoT/node_modules/
+
+AIoT/.DS_Store
+
+.DS_Store
